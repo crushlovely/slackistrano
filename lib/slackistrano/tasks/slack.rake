@@ -78,9 +78,9 @@ namespace :load do
     set :slack_via_slackbot, ->{ false } # Set to true to send the message via slackbot instead of webhook
 
     set :slack_channel,      ->{ nil } # Channel to post to. Optional. Defaults to WebHook setting.
-    set :slack_icon_url,     ->{ 'http://gravatar.com/avatar/885e1c523b7975c4003de162d8ee8fee?r=g&s=40' }
+    set :slack_icon_url,     ->{ 'http://www.gravatar.com/avatar/39293a628644a33d2373c9c329330d49.png' }
     set :slack_icon_emoji,   ->{ nil } # Emoji to use. Overrides icon_url. Must be a string (ex: ':shipit:')
-    set :slack_username,     ->{ 'Slackistrano' }
+    set :slack_username,     ->{ 'crushbot' }
     set :slack_run_starting, ->{ true } # Set to false to disable starting message.
     set :slack_run_finished, ->{ true } # Set to false to disable finished message.
     set :slack_run_failed,   ->{ true } # Set to false to disable failure message.
